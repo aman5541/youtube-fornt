@@ -1,0 +1,11 @@
+.navbar{
+    height: 57px;
+    box-sizing: border-box;
+    padding: 10px 16px;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    position: fixed;
+    background-color: black;
+    z-index: 10;
+}
