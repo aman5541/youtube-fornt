@@ -1,11 +1,129 @@
-.navbar{
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.navbar {
     height: 57px;
     box-sizing: border-box;
     padding: 10px 16px;
+    display: flex;
     align-items: center;
+    width: 100%;
     justify-content: space-between;
     top: 0;
     position: fixed;
     background-color: black;
     z-index: 10;
+}
+
+.navbar-left {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarHamberger {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar_youtubeImage {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar_youtubeImg {
+    color: red;
+}
+
+.navbar_utubeTitle {
+    font-size: 20px;
+    font-family: "Oswald", serif;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+/* Middle Navbar */
+.navbar-middle {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-grow: 1;
+    max-width: 600px; /* Set a maximum width for responsiveness */
+}
+
+.navbar_searchBox {
+    display: flex;
+    flex-grow: 1; /* Ensures it takes up available space */
+    border: 1px solid rgb(58, 57, 57);
+    border-radius: 20px;
+    overflow: hidden; /* Prevents children from overflowing the rounded edges */
+    background-color: #121212;
+}
+
+.navbar_searchBoxInput {
+    flex-grow: 1; /* Ensures the input takes available space */
+    height: 40px;
+    border: none;
+    background-color: #121212;
+    color: white;
+    font-size: 16px;
+    padding: 0 10px;
+    outline: none;
+}
+
+.navbar_searchIconBox {
+    width: 50px;
+    cursor: pointer;
+    background-color: rgb(42, 42, 42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar_mic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(42, 42, 42);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+/*              right navabr */
+
+.navbar-right{ 
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.navbar-right-logo{
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.navbar-modal{
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    z-index: 20;
+    color: white;
+}
+.navbar-modal-option{
+    background-color: rgb(85, 85, 85);
+    padding: 10px;
+    cursor: pointer;
+    &:hover{
+        background-color: rgb(34, 33, 33); 
+    }
 }

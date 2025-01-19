@@ -1,0 +1,41 @@
+.home-sideNavbar {
+    width: 250px;
+    background-color: black;
+    height: 93vh;
+    display: flex;
+    flex-direction: column;
+    flex: 0.16 1;
+    box-sizing: border-box;
+    position: fixed;
+    top: 55px;
+    left: 0px;
+    width: 275px;
+    padding: 14px;
+    overflow-y: auto;
+    color: white;
+  }
+  
+  /* .home_sideNavbarTop {
+    padding: 10px;
+  }
+  
+  .home_sideNavbarTopOption {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .home_sideNavbarTopOption:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .homeIcon {
+    margin-right: 10px;
+  }
+  
+  .home_sideNavbarTopOptionTitle {
+    font-size: 16px;
+  }
+   */

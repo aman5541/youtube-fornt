@@ -1,0 +1,6 @@
+.home{
+    display: flex;
+    width: 100%;
+    padding: 10px 13px 0 13px;
+    box-sizing: border-box;
+}
