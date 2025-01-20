@@ -6,8 +6,9 @@ import SearchIcon from '@mui/icons-material/Search';
 import MicIcon from '@mui/icons-material/Mic';
 import VideoCallIcon from '@mui/icons-material/VideoCall';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
+import SideNavbar from '../SideNavbar/sideNavbar';
 
-const Navbar = () => {
+const Navbar = ({setSideNavbarFunc,SideNavbar}) => {
   const [userPic, setUserPic] = useState(
     "https://as1.ftcdn.net/v2/jpg/03/53/11/00/1000_F_353110097_nbpmfn9iHlxef4EDIhXB1tdTD0lcWhG9.jpg"
   );
@@ -15,11 +16,14 @@ const Navbar = () => {
   const handleClickModal =()=>{
     setNavbarModal(prev=>!prev);
   }
+  const sideNavbarFunc=()=>{
+    setSideNavbarFunc(!SideNavbar)
+  }
   return (
     <div className="navbar">
       {/* Left Section */}
       <div className="navbar-left">
-        <div className="navbarHamberger">
+        <div className="navbarHamberger" onClick={sideNavbarFunc}>
           <MenuIcon sx={{ color: "white" }} />
         </div>
         <div className="navbar_youtubeImage">
@@ -83,6 +87,6 @@ const Navbar = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Navbar;

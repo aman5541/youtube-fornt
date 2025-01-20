@@ -1,41 +1,102 @@
+.homeSideNavbarHide{
+    display: none;
+}
+
+
 .home-sideNavbar {
-    width: 250px;
+    width: 275px; /* Corrected width */
     background-color: black;
     height: 93vh;
     display: flex;
     flex-direction: column;
-    flex: 0.16 1;
+    flex: 0.16 1; /* Flex-grow, flex-shrink, flex-basis */
     box-sizing: border-box;
     position: fixed;
-    top: 55px;
-    left: 0px;
-    width: 275px;
+    top: 55px; /* Adjusted for consistent layout */
+    left: 0;
     padding: 14px;
     overflow-y: auto;
     color: white;
-  }
-  
-  /* .home_sideNavbarTop {
-    padding: 10px;
-  }
-  
-  .home_sideNavbarTopOption {
+}
+
+.home-sideNavbarTop { 
     display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(86, 85, 85);
+    padding-bottom: 10px;
+}
+
+.home-sideNavbarTopOption {
+    display: flex;
+    gap: 20px;
     align-items: center;
-    padding: 10px;
+    padding: 9px 10px;
+    border-radius: 15px;
     cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .home_sideNavbarTopOption:hover {
-    background-color: #e0e0e0;
-  }
-  
-  .homeIcon {
-    margin-right: 10px;
-  }
-  
-  .home_sideNavbarTopOptionTitle {
-    font-size: 16px;
-  }
-   */
+    transition: background-color 0.3s ease; /* Added smooth hover effect */
+}
+
+.home-sideNavbarTopOption:hover {
+    background-color: rgb(35, 35, 35); /* Fixed hover syntax */
+}
+.home-sideNavbar {
+    width: 275px; /* Corrected width */
+    background-color: black;
+    height: 93vh;
+    display: flex;
+    flex-direction: column;
+    flex: 0.16 1; /* Flex-grow, flex-shrink, flex-basis */
+    box-sizing: border-box;
+    position: fixed;
+    top: 55px; /* Adjusted for consistent layout */
+    left: 0;
+    padding: 14px;
+    overflow-y: auto;
+    color: white;
+}
+
+.home-sideNavbarTop { 
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(86, 85, 85);
+    padding-bottom: 10px;
+}
+
+.home-sideNavbarTopOption {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 9px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Added smooth hover effect */
+}
+
+.home-sideNavbarTopOption:hover {
+    background-color: rgb(35, 35, 35); /* Fixed hover syntax */
+}
+.home-sideNavbarTopOptionTitle{
+    font-size: 14px;
+    font-weight: 450px;
+}
+
+
+
+
+/*         middle */
+.home-sideNavbarMiddle{
+    display:flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(86,85,85);
+    padding: 10px 0;
+
+
+}
+.home-sideNavbarTopOptionTitleHeader{
+    font-weight: 600;
+}
+.home-sideNavbar-ImgLogo{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}

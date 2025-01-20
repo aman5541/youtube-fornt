@@ -1,12 +1,15 @@
 import React from 'react'
+
+import './home.css';
+
 import SideNavbar from '../../SideNavbar/sideNavbar'
-import './home.css'
 import HomePage from '../../HomePage/homePage'
-const Home = () => {
+const Home = ({sideNavbar}) => {
   return (
     <div className='home'>
-      <SideNavbar/>
+      <SideNavbar sideNavbar={sideNavbar}/>
       <HomePage/>
+    
     </div>
   )
 }
