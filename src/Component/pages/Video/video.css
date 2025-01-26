@@ -1,3 +1,159 @@
-.video{
-    margin-top: 55px;
+.video {
+    margin-top: 56px;
+    display: flex;
+    color: white;
+    padding: 30px;
+    justify-content: space-between;
+    background-color: black;
+    box-sizing: border-box;
+    gap: 20px;
+}
+
+.videoPostSection {
+    flex: 2;
+    max-width: 875px;
+    display: flex;
+    flex-direction: column;
+}
+
+.video-youtube {
+    width: 100%;
+}
+
+.video-youtube-video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.video-youtubeAbout {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.video-utubeTitle {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.youtube-video-ProfileBlock {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    gap: 15px;
+}
+
+.youtube-video-ProfileBlock-left {
+    display: flex;
+    gap: 15px;
+}
+
+.youtube-video-ProfileBlock-left-img {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.youtube-video-ProfileBlock-left-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.youtubeVideo_subView {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.youtubePostProfileName {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.youtubePostProfilesubs {
+    font-size: 14px;
+    color: #AAAAAA;
+}
+
+.subscribeBtnYoutube {
+    background-color: white;
+    color: black;
+    padding: 0px 16px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.subscribeBtnYoutube:hover {
+    background-color: black;
+    color: white;
+}
+
+.youtube-video-likeBlock {
+    display: flex;
+    gap: 10px;
+    background-color: rgba(165, 165, 165, 0.22);
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.youtubevideoDivder {
+    width: 1px;
+    height: 20px;
+    background-color: #aaaaaa;
+}
+
+.videoSuggestions {
+    flex: 1;
+    max-width: 400px;
+    padding: 10px 15px;
+    gap: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: #202020;
+    border-radius: 10px;
+}
+
+.videoSuggestionItem {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.videoSuggestionItem-thumbnail {
+    width: 120px;
+    height: 70px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.videoSuggestionItem-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.videoSuggestionItem-title {
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+}
+
+.videoSuggestionItem-channel {
+    font-size: 12px;
+    color: #aaa;
 }
