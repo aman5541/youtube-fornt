@@ -1,0 +1,137 @@
+.profile{
+    display: flex;
+    width: 100%;
+    padding: 10px,13px 0px 13px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+
+}
+.profile-page{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    margin-left: 270px;
+    flex: 1;
+    color: white;
+    margin-top: 56px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.profile-page-inactive{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    
+    flex: 1;
+    color: white;
+    margin-top: 56px;
+    justify-content: center;
+    align-items: center;
+
+}
+.profile-top-section{
+    width: 100%;
+    display: flex;
+    padding: 0 0 20px 0;
+
+
+}
+.profile-top-section-profile{
+    width: 15%;
+
+}
+.profile-top-section-img  {
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+
+}
+.profile-top-section-About{
+  display: flex;  
+  flex-direction: column;
+  gap: 7px;
+  padding: 0 10px;
+  width: 85%;
+}
+.profile-top-section-About-Name{
+    font-size: 36px;
+    font-weight: 600;
+}
+.profile-top-section-info{
+    font-size: 16px;
+    color: rgb(153,153,153);
+}
+
+.profile-videos{
+    width: 100%;
+
+}
+
+.profile-videos-title{
+
+    font-size: 22px;
+     padding-left: 5px; 
+    padding-bottom: 13px;
+    color: rgb(207,206 , 206);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(153,153,153);
+}
+
+.profileVideos{
+    display: flex;
+    gap: 10px;
+    height: 100vh;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.youtube-Video{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+   
+    cursor: pointer;
+    height: 316px;
+ }
+ .youtube-thumbnailBox{
+     width: 100%;
+     position: relative;
+     box-sizing: border-box;
+     height: 216px;
+ }
+ .youtube-thumbnailPic{
+     width: 100%;
+     height: 100%;
+     border-radius: 10px;
+ }
+ .youtube-timingThumbnail{
+     position: absolute;
+     bottom: 0;
+     right: 0;
+     width: auto;
+     padding: 1px 2px;
+     background-color: rgb(42,42,42);
+     border-radius: 5px;
+ }
+ .youtubeTitleBox{
+ display: flex;
+ padding-top: 10px;
+ }
+ .youtubeTitleBoxProfile{
+     width: 50px;
+     height: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+  
+ }
+ .youtube-thumbnailProfile{
+   width: 80%;
+   border-radius: 100%;
+ }

@@ -1,0 +1,87 @@
+.login{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0,0, 0.7);
+    position: fixed;
+    top: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: "Oswald",sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: normal;
+}
+.login-card{
+    width: 40%;
+    height: 60%;
+    margin-top: 100px;
+    background-color: black;
+    box-sizing: border-box;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0.5px 0.5px  8px white;
+}
+.titleCard-login{
+    font-size: 32px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.loginCredentials{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.userNameLogin{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userNameLoginUserName{
+    padding: 0 10px;
+    width: 70%;
+    height: 45px;
+    
+    background-color:#222222;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  
+}
+.login-buttons{
+    width: 60%;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.login-btn{
+    width: 25%;
+    height: 35px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    &:hover{
+        background-color: white;
+        color: black;
+    }
+
+}
