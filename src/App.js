@@ -27,7 +27,7 @@ const setSideNavbarFunc=(value)=>{
         <Route path='/watch/:id' element={ < Video/>} />
         <Route path='/user/:id' element={ < Profile  sideNavbar={sideNavbar}/>} />
         <Route path='/:id/upload' element={ < VideoUpload />} />
-        <Route path='/singup' element={ < SignUp/>} />
+        <Route path='/signup' element={ <SignUp/>} />
       </Routes>
      
     </div>
